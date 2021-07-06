@@ -1,0 +1,169 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* navbar section*/
+
+.nav_section{
+    background-color: rgb(190, 121, 175);
+}
+#logo{
+    padding-left: 5px;
+    margin-top: 5px;
+}
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+}
+#navbar{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+
+}
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: rgb(8, 5, 7);
+    display: block;
+    padding: 3px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: rgb(233, 25, 129);
+    background-color: rgb(214, 158, 207);
+}
+
+/*top banner*/
+h1{
+    font-size: 60px;
+}
+.skip{
+    color: rgb(236, 62, 91);
+}
+
+.flex_container{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.half_width{
+    width: 50%;
+    padding-left: 10%;
+}
+.half_width img{
+    height: 400px;
+    width: 400px;
+}
+
+.button{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-image: linear-gradient(#7b4397,#dc2430);
+}
+
+/*mid banner*/
+
+.mid_banner{
+    padding: 50px;
+    background-image: url(image/mid_back.png);
+    background-repeat: no-repeat;
+}
+
+/*last banner*/
+.my_recipies{
+    text-align: center;
+}
+.my_recipies p{
+    max-width: 650px;
+    padding-left: 354px;
+}
+.item_list img{
+    padding: 30px;
+    height: 274px;
+    width: 327px;
+    border-radius: 12%;
+    
+}
+
+.items{
+    margin-left: 3%;
+    border-radius: 15%;
+    
+}
+
+.item_list{
+    border: 7px solid white;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px rgb(206, 107, 193);
+}
+
+.item_list .last_h3{
+    text-align: center;
+}
+.item_list .last_p{
+    max-width: 263px;
+    padding-left: 82px;
+}
+
+/*contact*/
+.contact_us{
+    text-align: center;
+    margin-top: -100px;
+    margin-bottom: 50px;
+    padding: 24px;
+}
+.login_group{
+    font-size: 28px;
+    text-align: center;
+    display: block;
+    
+}
+
+.c_color{
+    margin-left: -40px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: 1px 8px;
+    border-radius: 3px;
+    background-image: linear-gradient(#7b4397,#dc2430);
+}
+
+/*counter_banner*/
+.subscriber_item{
+    border: 7px solid white;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px rgb(206, 107, 193)
+}
+.subscriber_list{
+    padding-left: 190px;
+}
+
+/*footer*/
+.footer{
+    color: rgb(236, 62, 91);
+}
+#copyright{
+    background-color: rgb(235, 199, 205);
+    height: 100px;
+    text-align: center;
+}
+
+
